@@ -14,6 +14,8 @@ class Main
       puts "This game works like a choose-your-own-adventure book. You will have many different choices. There's no 'real' end."
       puts "Choose what seems right to you. Do your best."
       puts "So let's move on to the story, shall we?"
+      sleep(8)
+      puts
       puts
       
       s = StoryStart.new
