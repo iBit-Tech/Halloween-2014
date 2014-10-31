@@ -1,3 +1,5 @@
+require 'src/main/ruby/xbony2/halloween/StoryStartScript'
+
 class Main
   def start
     puts "Welcome."
@@ -13,6 +15,9 @@ class Main
       puts "Choose what seems right to you. Do your best."
       puts "So let's move on to the story, shall we?"
       puts
+      
+      s = StoryStart.new
+      s.start
     else
       puts "You screwed up. Retry."
     end
