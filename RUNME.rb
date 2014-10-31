@@ -1,3 +1,4 @@
-require 'src/main/ruby/xbony2/halloween/Main'
+require 'src/main/ruby/xbony2/halloween/MainScript'
 
-Main.start
+m = Main.new
+m.start
