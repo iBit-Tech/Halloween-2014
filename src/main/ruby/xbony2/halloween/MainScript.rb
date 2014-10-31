@@ -14,7 +14,7 @@ class Main
       puts "So let's move on to the story, shall we?"
       puts
     else
-      puts "You screw up. Retry."
+      puts "You screwed up. Retry."
     end
   end
 end
